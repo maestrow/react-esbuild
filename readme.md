@@ -17,6 +17,11 @@ Add:
 
 npm run build
 
+## Add some goodies
+
+Add `scripts/build.js` that use esbuild with javascript API.
+Add `npm i -D cross-env` to run build.js with NODE_ENV environment variable.
+
 
 # Other ways to create typescript + react app
 

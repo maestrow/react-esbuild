@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild src/App.tsx --bundle --minify --sourcemap --outfile=public/bundle.js"
+    "build:prod": "cross-env NODE_ENV=production node scripts/build.js",
+    "build:dev": "cross-env NODE_ENV=development node scripts/build.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "esbuild": "^0.12.16",
     "typescript": "^4.3.5"
   },
