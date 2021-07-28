@@ -14,6 +14,7 @@
     "browser-sync": "^2.27.5",
     "cross-env": "^7.0.3",
     "esbuild": "^0.12.16",
+    "esbuild-css-modules-plugin": "^1.0.6",
     "typescript": "^4.3.5"
   },
   "dependencies": {

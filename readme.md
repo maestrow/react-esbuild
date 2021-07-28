@@ -19,12 +19,20 @@ npm run build
 
 ## Add some goodies
 
+### esbuild options and build script
+
 Add `scripts/build.js` that use esbuild with javascript API.
 Add `npm i -D cross-env` to run build.js with NODE_ENV environment variable.
 
 ## Dev server with watch mode
 
 npm i -D browser-sync
+
+Note, that [body tag is mandatory](https://stackoverflow.com/questions/24937136/browsersync-suddenly-not-connecting-to-browser) for autoreload.
+
+## css modules
+
+npm i -D esbuild-css-modules-plugin
 
 # Other ways to create typescript + react app
 
