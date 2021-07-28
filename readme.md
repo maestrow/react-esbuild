@@ -22,6 +22,9 @@ npm run build
 Add `scripts/build.js` that use esbuild with javascript API.
 Add `npm i -D cross-env` to run build.js with NODE_ENV environment variable.
 
+## Dev server with watch mode
+
+npm i -D browser-sync
 
 # Other ways to create typescript + react app
 
