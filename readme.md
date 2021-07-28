@@ -34,6 +34,8 @@ Note, that [body tag is mandatory](https://stackoverflow.com/questions/24937136/
 
 npm i -D esbuild-css-modules-plugin
 
+Add [typing declarations](https://stackoverflow.com/questions/40382842/cant-import-css-scss-modules-typescript-says-cannot-find-module) for css modules.
+
 # Other ways to create typescript + react app
 
 - https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/

@@ -11,10 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "browser-sync": "^2.27.5",
     "cross-env": "^7.0.3",
     "esbuild": "^0.12.16",
     "esbuild-css-modules-plugin": "^1.0.6",
+    "eslint": "^7.31.0",
     "typescript": "^4.3.5"
   },
   "dependencies": {
